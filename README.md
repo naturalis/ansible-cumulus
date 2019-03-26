@@ -1,6 +1,5 @@
 # ansible-cumulus
-Manage Cumulus switches with Ansible using NCLU.
-
+Ansible role to configure Cumulus switches using NCLU.
 
 ## Requirements
 
