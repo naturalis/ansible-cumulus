@@ -1,0 +1,19 @@
+---
+- name: abort uncommited nclu commands
+  nclu:
+    abort: true
+
+- name: nclu commands
+  nclu:
+    commands:
+      - '{{ item }}'
+  with_items:
+    - '{{ nclu }}'
+  register: nclu
+
+- name: commit
+  nclu:
+    commit: true
+    description: 'ansible nclu commands'
+  when: nclu.changed
+...

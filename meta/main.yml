@@ -1,0 +1,17 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: Rudi Broekhuizen
+  description: Manage Cumulus switches with Ansible using NCLU
+  company: Naturalis Biodiversity Center
+  license: Apache2
+  min_ansible_version: 2.5
+  platforms:
+  - name: Cumulus Linux
+    versions:
+    - all
+  galaxy_tags:
+    - cumulus
+    - switches
+    - nclu
