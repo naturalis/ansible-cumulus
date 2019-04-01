@@ -1,0 +1,9 @@
+---
+- name: NCLU commands
+  include: nclu.yml
+  tags: nclu
+
+- name: Vagrant interface to vagrantvrf
+  include: vagrantvrf.yml
+  tags: vagrantvrf
+...
