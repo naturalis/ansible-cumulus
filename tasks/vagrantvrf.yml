@@ -1,5 +1,5 @@
 ---
-- name: Move interface to vagrantvrf
+- name: move interface to vagrantvrf
   lineinfile:
     path: /etc/network/interfaces
     insertafter: 'iface vagrant inet dhcp'
