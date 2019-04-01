@@ -1,0 +1,4 @@
+---
+- name: reload networking
+  command: "ifreload -a"
+...
