@@ -3,7 +3,7 @@
   include: nclu.yml
   tags: nclu
 
-- name: Settings that can't be done using NCLU
+- name: no-NCLU commands
   include: noclu.yml
   tags: noclu
 ...
